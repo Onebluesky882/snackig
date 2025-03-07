@@ -79,15 +79,6 @@ const TapLayout = () => {
             ),
           }}
         />
-        <Tabs.Screen
-          name="inbox"
-          options={{
-            title: "Inbox",
-            tabBarIcon: ({ color }) => (
-              <Feather name="bell" size={24} color={color} />
-            ),
-          }}
-        />
       </Tabs>
     </>
   );

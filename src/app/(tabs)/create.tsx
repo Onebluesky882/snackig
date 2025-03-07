@@ -2,7 +2,7 @@ import { View, Text } from "react-native";
 const create = () => {
   return (
     <View>
-      <Text>create</Text>
+      <Text>{`create`}</Text>
     </View>
   );
 };
